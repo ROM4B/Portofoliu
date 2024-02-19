@@ -1,6 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .HCONTENT{
@@ -98,4 +101,40 @@ a{
     padding-top: 16px;
     font-size: 35px;
     font-weight: 700;
+}
+
+.L3{
+    background-color: #e5e7eb;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.QUOTE{
+    font-size: 32px;
+    width: 600px;
+    display: flex;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.SBTXT3{
+    margin-top: 10px;
+    font-size:large;
+    width: 600px;
+    display: flex;
+    justify-content: end;
+    font-style: italic;
+}
+
+.footer{
+    background-color: #1f2937;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: smaller;
 }

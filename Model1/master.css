@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.HCONTENT{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+
+.txtstng{
+    width: 300px;
+    color: white;
+}
+
+.Text1{
+    margin-top: 32px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.fata{
+    width: 300px;
+}
+
+.L1{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937
+}
+
+ul{
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+}

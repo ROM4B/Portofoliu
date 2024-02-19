@@ -8,10 +8,15 @@ body{
     justify-content: space-between;
     background-color: #1F2937;
     color: white;
+    padding: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    flex-shrink: 0;
 }
 
 .txtstng{
     width: 300px;
+    flex-shrink: 0;
     color: white;
 }
 
@@ -23,17 +28,74 @@ body{
 
 .fata{
     width: 300px;
+    max-height: 200px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
 }
 
 .L1{
     
     display: flex;
     justify-content: space-around;
-    background-color: #1F2937
+    background-color: #1F2937;
+    height: 250px;
+}
+
+.BNB{
+    margin-top: 8px;
+    background-color: #3882F6;
+    width: 80px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2px 6px;
+    font-size: 12px;
 }
 
 ul{
     display: flex;
     gap: 8px;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+a{
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.L2{
+    height: 300px;
+}
+
+.CL2{
+    display: flex;
+    justify-content: center;
+    height: 220px;
+    gap: 32px;
+    align-items: center;
+}
+
+.jeans, .tshirt, .jacket, .accessories{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: #3882F6;
+    flex-shrink: 0;
+}
+
+.TCL2{
+    text-align: center;
+    padding-top: 16px;
+    font-size: 35px;
+    font-weight: 700;
 }
